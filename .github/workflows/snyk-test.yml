@@ -1,7 +1,7 @@
 name: Example workflow for Node using Snyk
 on: push
 jobs:
-lint:
+ lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
